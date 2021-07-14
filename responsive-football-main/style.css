@@ -1,0 +1,431 @@
+/* body part style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------------
+ header part style start 
+ ----------------------*/
+ header {
+    background-color:  #2D25A0;
+ }
+
+ .copa-america {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px ;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+
+ .copa-america:hover {
+     background-color: lightslategrey;   
+ }
+
+ .copa-america-info {
+    width: 50%;
+    padding: 5%;
+  }
+
+  .copa-title {
+      font-size: 64px;
+      color: #FFFFFF;
+      margin-bottom: 27px;
+  }
+
+  .copa-america-info a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500px;  
+  }
+
+  .copa-america-info a:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: tomato;
+  }
+
+  .copa-america-banner img {
+
+    width: 556.01px;
+    height: 438px;
+  }
+
+ /*--------------------
+ header part style end 
+ ----------------------*/
+
+
+
+
+/*--------------------
+ main part style start 
+ ----------------------*/
+ main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*------------------
+ players part style start 
+ ---------------------*/
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-image img {
+    width: 100%;
+    height: 256px;
+}
+
+.player-name {
+    
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.player-info {
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 0px;
+    margin-bottom: 33px;
+}
+
+/*------------------
+ players part style ends 
+ ---------------------*/
+
+
+
+
+
+/*--------------------
+ optional part start 
+ -------------------- */
+.copa-optional {
+    background-color: white;
+    margin-top: 157px;
+}
+
+.copa-highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px ;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+
+ .copa-highlight-details {
+    width: 50%;
+    padding: 5%;
+ }
+
+ .highlight-title {
+    font-size: 48px;
+      color:  #0A0826;
+      margin-bottom: 8px;
+ }
+
+ .copa-description {
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+ }
+
+ .copa-highlight-details a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500px;
+ }
+
+ .copa-highlight-details a:hover {
+    background-color: rgb(146, 194, 75);
+    border-radius: 10px;
+    color: tomato;
+ }
+
+
+ .highlight-banner img {
+    width: 567px;
+    height: 427px;
+  }
+ 
+/*--------------------
+ optional part end 
+ -------------------- */
+
+
+
+/*--------------------
+ extra part-1 style start 
+ ---------------------- */
+
+ .club-album {
+
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-bottom: 50px;
+}
+
+.club-frame{ 
+
+width: 300px;
+height: 150px;
+border: 3px solid gold;
+border-radius: 10px;
+position: relative;
+margin: 15px;
+overflow: hidden;
+}
+
+.club-frame:hover .club-photo {
+
+   transform: scale(1.5) skew(-30deg) rotate(360deg) ;
+   transition: transform 3s ease-in-out;
+}
+
+.club-frame:hover .club-details {
+
+   display: block;
+   background-color: rgba(218, 165, 32, 0.719);
+}
+
+.club-photo img{
+
+   width: 100%;
+   border-radius: 10px;
+}
+
+.club-details {
+
+display: none;
+position: absolute;
+width: 300px;
+top: 0px;
+
+}
+
+.club-details h3 {
+
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.club-details p {
+
+   color: whitesmoke;
+   text-align: center;
+}
+
+ /*--------------------
+ extra part-1 style end 
+ -------------------- */
+
+
+
+
+ 
+/*--------------------
+ main part style ends 
+ ----------------------*/
+
+
+
+
+
+
+ /*--------------------
+ footer part style start 
+ ----------------------*/
+ footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+ }
+ .about-football {
+   margin-bottom: 75px;
+ }
+
+ .football-logo img{
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+ }
+
+ .contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .contact a {
+     text-decoration: none;
+     font-size: 32px;
+     margin-right: 14px;
+     color: gray;
+     margin:  0px 14p;
+ }
+
+
+ .copyright-text {
+    color: #000000;
+    margin-top: 20px;
+ }
+
+/*--------------------
+ footer part style ends 
+ ----------------------*/
+
+
+
+
+ /* -----------------------
+ media responsive style starts
+ ------------------------*/
+
+
+/* smart phone */
+
+@media only screen and (max-width: 688px ) {
+  
+   container {
+     width: 100%;
+   
+   }
+  .copa-america-2021, .players, .copa-optional, .club-album, .organizations, .about-football{
+  
+   grid-template-columns: repeat(1, 1fr);
+  }
+  .copa-america, .copa-highlight {
+    flex-direction: column;
+   }
+
+   .copa-title, .highlight-title, .club-heading {
+      font-size: 36px;
+   }
+   .copa-america-info a {
+      text-decoration: none;
+      background-color: #E02C6D;
+      padding: 10px 24px;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: 500px;
+     
+    }
+
+    .live-watch{
+      width: 168px;
+      height: 44px;
+    }
+    .copa-america-banner img, .highlight-banner img, .organization-image img{
+
+      width: 329px;
+      height: 259.17px;
+    
+    }
+    .copa-optional{
+       margin-top: 60px;
+    }
+.football-logo img{
+   width: 350px;
+   height: 150px;
+}
+
+.about-football {
+   margin-bottom: 150px;
+}
+    
+ }
+ 
+  
+ /* tablet */
+ 
+ @media only screen and (min-width: 689px) and (max-width: 992px) {
+   
+   container {
+      width: 100%;
+    
+    }
+   .copa-america-2021, .players, .copa-optional, .club-album, .organizations, .about-football{
+   
+    grid-template-columns: repeat(2, 1fr);
+   }
+  
+ 
+    .copa-title, .highlight-title, .club-heading {
+       font-size: 40px;
+    }
+    .copa-america-info a {
+       text-decoration: none;
+       background-color: #E02C6D;
+       padding: 10px 24px;
+       color: #FFFFFF;
+       font-size: 16px;
+       font-weight: 500px;
+      
+     }
+ 
+     .live-watch{
+       width: 168px;
+       height: 44px;
+     }
+     .copa-america-banner img, .highlight-banner img {
+ 
+       width: 329px;
+       height: 259.17px;     
+     }
+
+     .copa-optional{
+        margin-top: 60px;
+     }
+  }
+  
+ 
+ /* laptop and other device*/
+ 
+ @media only screen and (min-width:1001){
+   
+   container {
+      width: 100%;
+    
+    }
+    .copa-america-2021, .players, .club-album, .organizations, .about-football{
+   
+    grid-template-columns: repeat(3, 1fr);
+   }
+   
+  }
+  
+ 
+ /* -----------------------
+ media responsive style ends
+ ------------------------*/
